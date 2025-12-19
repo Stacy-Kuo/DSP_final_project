@@ -94,7 +94,8 @@ All modules operate concurrently and communicate with a central **Pygame-based g
 ```
 ├─ main.py                # Main game loop (Pygame)
 ├─ sensor_thread.py       # ECG & EMG acquisition + processing
-├─ emg_processor.py       # EMG DSP pipeline (independent design)
+├─ emg_processor.py       # EMG DSP pipeline 
+├─ ecg_processor.py       # ECG DSP pipeline 
 ├─ voice_control.py       # MFCC + CNN speech recognition
 ├─ mfcc_train.py          # using MFCC + CNN to train model
 ├─ README.md
